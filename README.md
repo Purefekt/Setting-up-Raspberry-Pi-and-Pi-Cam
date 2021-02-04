@@ -1,4 +1,4 @@
-# Setting up Raspberry Pi
+# Setting up Raspberry Pi and Pi Cam
 
 - Connect a brand new micro sd card any computer running Windows/MacOS etc  
 - Install Raspberry Pi Imager using the following [link](https://www.raspberrypi.org/software/)
