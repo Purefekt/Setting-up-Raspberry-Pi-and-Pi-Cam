@@ -23,4 +23,6 @@ sudo apt-get dist-upgrade
 ```
 This will take some time
 - Now to test if the camera is correctly installed and is working correctly. The camera is already enabled in the pi config. Use the following command to snap a picture, it should be saved on the desktop, if it works then everything is fine.
-```raspistill -o Desktop/image-small.jpg -w 640 -h 480```
+```
+raspistill -o Desktop/image-small.jpg -w 640 -h 480
+```
