@@ -8,4 +8,9 @@
 - Open the terminal and type ```ipconfig``` and note down the ip address of the pi.  
 - Install VNC on your computer and enter the pi's ip address to connect remotely. If you see a black screen with a message saying "Cannot display.. " then we have to change some display settings.  
 - Open terminal in MacOS and type ```ssh pi@192.168.0.94``` (use the correct ip address) and enter the default password ```raspberry```.   
-- Once you are in the pi terminal, type ```sudo raspi-config```  
+- Once you are in the pi terminal, type ```sudo raspi-config``` . 
+- Navigate to ```Display Options```.
+- Navigate to ```Resolution```.
+- Select the resolution of choice (1920 x 1080).
+- Reboot.
+- Now VNC viewer should work correctly.
